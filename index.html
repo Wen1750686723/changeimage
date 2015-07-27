@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.textHover.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+
+			$('#div1').textHover({ 
+			classa: 'classa', 
+			classb: 'classb'
+			}); 
+		}); 
+	</script>
+	<style type="text/css">
+	.classa{
+		width: 125px;
+		height: 125px;
+		background: url(img/iaduo.jpg) center top no-repeat;
+	}
+	.classb{
+		width: 125px;
+		height: 250px;
+		margin-top:-125px;
+		background: url(img/iaduo.jpg) center top no-repeat;
+	}
+	</style>
+
+</head>
+<body>
+<div style="width:125px;height:125px;overflow:hidden;">
+	<div id="div1" class="classa"> 
+</div>
+
+
+</div> 
+
+</body>
+</html>
